@@ -12,8 +12,10 @@ import * as firebase from "firebase/app";
 import "firebase/auth";
 import "firebase/database";
 
+// require('dotenv').config();
+
 firebase.initializeApp({
-  apiKey: "AIzaSyAY7SXrs8oXzEqQg15uY4UC6HP1BkCJBas",
+  apiKey: process.env.VUE_APP_APIKEY,
   authDomain: "vmcrm-c21f7.firebaseapp.com",
   databaseURL: "https://vmcrm-c21f7.firebaseio.com",
   projectId: "vmcrm-c21f7",

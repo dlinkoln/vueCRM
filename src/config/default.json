@@ -1,0 +1,11 @@
+{
+  "Firebase": {
+    "apiKey": "AIzaSyAY7SXrs8oXzEqQg15uY4UC6HP1BkCJBas",
+    "authDomain": "vmcrm-c21f7.firebaseapp.com",
+    "databaseURL": "https://vmcrm-c21f7.firebaseio.com",
+    "projectId": "vmcrm-c21f7",
+    "storageBucket": "vmcrm-c21f7.appspot.com",
+    "messagingSenderId": "558767368771",
+    "appId": "1:558767368771:web:db326f66a7fe41db8f42f6"
+  }
+}

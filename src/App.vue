@@ -6,7 +6,9 @@
 <script>
 import EmptyLayout from "@/layouts/EmptyLayout";
 import MainLayout from "@/layouts/MainLayout";
+
 export default {
+  data: () => ({}),
   computed: {
     layout() {
       return (this.$route.meta.layout ?? "empty") + "-layout";
